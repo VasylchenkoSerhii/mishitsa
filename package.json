@@ -5,12 +5,18 @@
   "main": "index.js",
   "homepage": "https://VasylchenkoSerhii.github.io/mishitsa",
   "scripts": {
-    "dev": "parcel src/*.html",
+    "dev": "parcel src/index.html",
     "build": "parcel build src/*.html --public-url /mishitsa/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VasylchenkoSerhii/mishitsa.git"
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
